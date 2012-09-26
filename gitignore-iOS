@@ -8,12 +8,18 @@
 *.mode1
 *.mode1v3
 *.mode2v3
+*.moved-aside
 *.perspective
 *.perspectivev3
 *.pbxuser
 *.xcuserstate
+profile
 project.xcworkspace/*
 xcuserdata/
+!default.pbxuser
+!default.mode2v3
+!default.perspectivev3
+!default.xcworkspace
 
 # build products
 build/
@@ -21,9 +27,9 @@ build/
 
 # Other source repository archive directories (protects when importing)
 # Comment out to preserve repository archives.
-.hg
-.svn
-CVS
+#.hg
+#.svn
+#CVS
 
 
 # automatic backup files
