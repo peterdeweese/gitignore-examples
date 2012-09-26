@@ -11,7 +11,9 @@
 *.perspective
 *.perspectivev3
 *.pbxuser
-
+*.xcuserstate
+project.xcworkspace/*
+xcuserdata/
 
 # build products
 build/
@@ -19,6 +21,7 @@ build/
 
 
 # Other source repository archive directories (protects when importing)
+# Comment out to preserve repository archives.
 .hg
 .svn
 CVS
